@@ -237,5 +237,5 @@ invlogit(coef(m2))
 
 plot(m2, plotfun = "areas", prob = 0.9,
      pars = "(Intercept)")
-pp_check(m1)
+pp_check(m2)
 # launch_shinystan(m2)
